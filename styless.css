@@ -37,12 +37,29 @@ p {
     margin-top: 20px;
 }
 
-img {
-    max-width: 90%;
-}
+/* Cabeçalho */
+ header {
+        background: var(--primary-color);
+        color: #026773;
+        text-align: center;
+        padding: 20px;
+ }
+ header h1{
+    
+ }
 
 /* código omitido */
-/* código omitido */
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsividade */
 @media (max-width: 768px) {

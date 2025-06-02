@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Impacto do Desmatamento</h1>
-        <img src="cataratas-do-iguacu.jpg" alt="Foto das Cataratas do Iguaçu, um lugar com muitas árvores e mata nativa preservada.">
+        <img src="img/projeto agrinho.jpeg" alt="Foto das Cataratas do Iguaçu, um lugar com muitas árvores e mata nativa preservada.">
         <p>O desmatamento intensifica fenômenos negativos no meio ambiente e na vida das pessoas, afetando enchentes, temperatura e qualidade de vida.</p>
         <nav>
             <ul>
@@ -77,4 +77,25 @@
 <a href="https://www.youtube.com/watch?v=IIh7nDEkGqc&pp=ygUXSW1wYWN0byBkbyBEZXMgbWF0YW1lbnQ%3D" class="cta-button" target="_blank">Como impacta o mundo? <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--text-color);"></i></a>
 
 <!-- código omitido -->
- 
+ /* código omitido */
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
